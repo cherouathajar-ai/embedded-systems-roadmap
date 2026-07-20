@@ -18,5 +18,17 @@ int main(void)
         printf("Voltage: %.2f V\n", voltage);
         printf("Percentage: %.2f%%\n", percentage);
     }   
+    if (voltage < 1.0)
+    {
+        printf("Signal level: LOW\n");
+    }
+    else if (voltage > 2.5)
+    {
+        printf("Signal level: HIGH\n");
+    }
+    else
+    {
+        printf("Signal level: MEDIUM\n");
+    }
     return 0;
 }
