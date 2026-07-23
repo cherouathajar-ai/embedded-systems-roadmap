@@ -189,7 +189,7 @@ By the end of this roadmap, I aim to:
 
 ---
 
-## Updated 30-Day Roadmap Structure
+## 30-Day Roadmap Structure
 
 | Days | Main Focus | Key Topics |
 |---|---|---|
