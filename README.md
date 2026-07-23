@@ -74,14 +74,3 @@ Embedded-Systems-Roadmap/
 ## Learning Approach
 
 My objective is not only to complete tutorials. I want to understand, implement, test, debug, and document every project myself.
-### Day 2 — Functions, Loops and Ohm's Law
-
-During Day 2, I:
-
-- Studied C expressions, declarations, and numeric types
-- Learned function prototypes, parameters, arguments, and return values
-- Built a menu-driven electronics calculator
-- Used separate functions for voltage, current, resistance, and power
-- Added a switch statement and a do-while loop
-- Added input validation and division-by-zero protection
-- Solved Ohm's law and electrical power exercises
