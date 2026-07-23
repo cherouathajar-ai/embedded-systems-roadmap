@@ -235,32 +235,69 @@ By the end of this roadmap, I aim to:
 
 ---
 
-## Planned Projects
+## Updated 30-Day Roadmap Structure
 
-| Project | Main concepts |
-|---|---|
-| Sensor monitoring system | ADC, arrays, thresholds, status detection |
-| Environmental IoT node | Sensors, ESP32, communication |
-| Smart-home controller | Automation, relays, connectivity |
-| Motor-control project | PWM, drivers, direction control |
-| Embedded data logger | Sensors, storage, timing |
-| Communication project | UART, I2C, or SPI |
-| Final integrated project | Hardware and software integration |
+| Days | Main Focus | Key Topics |
+|---|---|---|
+| 1–5 | C Programming Foundations | Variables, input/output, conditions, loops, functions, arrays, pointers, and memory |
+| 6–10 | Intermediate C and Electronics | Structures, bitwise operations, modular programming, series and parallel circuits, capacitors, diodes, and pull-up/pull-down resistors |
+| 11–15 | Microcontroller Fundamentals | GPIO, digital inputs and outputs, ADC, PWM, buttons, LEDs, sensors, and actuators |
+| 16–20 | Embedded Communication and Control | UART, I2C, SPI, timers, interrupts, button debouncing, and state machines |
+| 21–24 | Power Electronics and Hardware Interfaces | Transistors, MOSFETs, relays, motors, protection circuits, power supplies, and electrical safety |
+| 25–26 | PCB Design with KiCad | Schematic capture, footprints, component placement, trace routing, ground planes, design checks, and Gerber files |
+| 27–29 | Integrated Embedded Project | ESP32 or Arduino project combining sensors, processing, communication, and actuator control |
+| 30 | Testing and Portfolio Presentation | Final testing, debugging, documentation, repository cleanup, project presentation, and portfolio preparation |
 
 ---
 
-## Engineering Principles
+## Expected Skills by the End
 
-Throughout this roadmap, I focus on:
+| Area | Expected Outcome |
+|---|---|
+| C Programming | Write structured, reusable, and hardware-oriented C programs |
+| Electronics | Analyze basic circuits and select suitable components |
+| Microcontrollers | Work with GPIO, ADC, PWM, timers, and interrupts |
+| Communication | Use UART, I2C, and SPI with sensors and peripherals |
+| Hardware Control | Control LEDs, relays, motors, and other actuators safely |
+| PCB Design | Design a basic PCB and prepare manufacturing files |
+| Debugging | Test software and hardware systematically |
+| Documentation | Present projects clearly through GitHub and technical notes |
 
-- Understanding the logic instead of copying code
-- Writing clear and readable programs
-- Compiling with warnings enabled
-- Validating user and sensor input
-- Considering electrical safety margins
-- Testing normal and abnormal conditions
-- Documenting mistakes and corrections
-- Using Git consistently
+---
+
+## Final Integrated Project
+
+The final project will combine several skills developed throughout the roadmap.
+
+The system should be able to:
+
+- Read data from at least one sensor
+- Process the sensor data in C
+- Detect normal and abnormal conditions
+- Control an LED, relay, motor, or another actuator
+- Communicate using UART, I2C, SPI, Wi-Fi, or Bluetooth
+- Use a circuit with suitable power and protection components
+- Include clear technical documentation
+- Include a basic PCB design prepared in KiCad
+- Be presented as a complete GitHub portfolio project
+
+---
+
+## Scope of the PCB Design Section
+
+The PCB section will cover beginner-level practical design, including:
+
+- Drawing the circuit schematic
+- Selecting component symbols
+- Assigning footprints
+- Placing components on the board
+- Routing copper traces
+- Adding a ground plane
+- Running electrical and design-rule checks
+- Checking connector and component orientation
+- Exporting Gerber and drill files
+
+Advanced topics such as RF design, controlled impedance, multilayer boards, high-speed USB, and industrial PCB certification are outside the scope of this 30-day roadmap.
 
 ---
 
