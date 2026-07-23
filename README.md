@@ -102,52 +102,6 @@ embedded-systems-roadmap/
 
 ---
 
-## Featured Programs
-
-### Electronics Calculator
-
-A menu-driven C program for solving basic electronics calculations.
-
-| Feature | Formula |
-|---|---|
-| Voltage | `V = I × R` |
-| Current | `I = V / R` |
-| Resistance | `R = V / I` |
-| Power | `P = V × I` |
-
-Concepts used:
-
-- Functions
-- Function prototypes
-- `switch`
-- `do...while`
-- Input validation
-- Division-by-zero protection
-
----
-
-### Sensor Data Analyzer
-
-A C program that processes a collection of simulated sensor readings.
-
-| Analysis | Description |
-|---|---|
-| Average | Calculates the mean sensor value |
-| Minimum | Finds the lowest reading |
-| Maximum | Finds the highest reading |
-| Abnormal count | Counts values outside the safe range |
-| System status | Displays `NORMAL` or `WARNING` |
-
-Concepts used:
-
-- Arrays
-- `for` loops
-- Passing arrays to functions
-- `const` parameters
-- Data validation
-- Embedded monitoring logic
-
----
 
 ## Development Workflow
 
