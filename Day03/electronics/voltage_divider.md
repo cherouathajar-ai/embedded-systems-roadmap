@@ -6,31 +6,33 @@ A voltage divider is a circuit made of two resistors connected in series.
 
 It is used to produce an output voltage that is lower than the input voltage.
 
-The output voltage is measured across resistor R2.
+The output voltage is measured across resistor `R2`.
 
 ## 2. Circuit
 
-Vin is connected to R1.
+`Vin` is connected to `R1`.
 
-The point between R1 and R2 is called Vout.
+The point between `R1` and `R2` is called `Vout`.
 
-R2 is connected between Vout and ground.
+`R2` is connected between `Vout` and ground.
 
 ```text
 Vin
  |
 R1
  |
- +------ Vout
++------ Vout
  |
 R2
  |
 GND
-# Voltage Divider
+```
 
-## Formula
+---
 
-The voltage divider formula is:
+## 3. Formula
+
+The voltage-divider formula is:
 
 **Vout = Vin × R2 / (R1 + R2)**
 
@@ -40,7 +42,7 @@ Where:
 - `Vout` is the output voltage.
 - `R1` is connected between `Vin` and `Vout`.
 - `R2` is connected between `Vout` and ground.
-- `Vout` is the voltage measured across `R2`.
+- `Vout` is measured across `R2`.
 
 ---
 
